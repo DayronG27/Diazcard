@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+ #navbarNavAltMarkup  {      /*contiene las direcciones de la pagina en el navbar  */
+    margin-left: 400px;
+    left: 500px;
+    }
+    .nav-link  {
+        width: 210px;
+    }
+
+    .logo {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        height: 600px;
+    }
+
+    .logo img {
+        width: 400px;
+        height: 400px;
+    }
+ 
+
+
+
+
