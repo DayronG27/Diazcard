@@ -18,10 +18,9 @@
    require_once('procesartablausuarios.php');
    ?>
 
-   <div class="container">
-
-      <div class="row">
-         <div class="col">
+<div class="row">
+          <div class="container">
+        <div class="uno" >  
             <h1>Registro usuario</h1>
             <form action="procesarformulario.php" method="POST"> <!-- anclaje a archivo procesarformulario.php -->
 
@@ -46,9 +45,10 @@
                </div>
                <br> <br>
                <input class="btn btn-outline-primary" type="submit" value="Enviar" class="submit">
-            </form>
+               </form>
+          
 
-
+             
             <table class="table table-sm table-hover  ">
                <thead class="table-dark">
                   <tr>
@@ -119,9 +119,10 @@
             </table>
          </div>
       </div>
-   </div>
-   </div>
-   </div>
+      </div>
+  
+ 
+   
  
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous"></script>
 
