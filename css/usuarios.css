@@ -1,72 +1,88 @@
-
-
-*{ 
-    margin:0 ;
-    padding: 0 ;
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
 }
 
+
 body {
-    background-color: #e7e7ea;
+    background-color: #dfe6e0;
 }
 
 
 .select {
-    	
-    margin-left: -30px;
-    left: 0px;
-    top: 35px;
-    border:1px solid #d9d9d9;
-    height:30px;
-    overflow: visible;
-    width: 60px;
-    position:relative;
- }
- select {
+    width: 55px;
+    margin-top: -60px;
+    margin-left: -15px;
+
+
+}
+
+select {
     background: transparent;
     border: none;
-    
+
+    height: 35px;
+    padding: 0px;
+    width: 100px;
+}
+
+
+.caja::after {
+    content: "\025be";
+    display: table-cell;
+    padding-top: 7px;
+    text-align: center;
+    width: 30px;
     height: 30px;
-    padding: 5px;
-    width: 60px;
- }
- 
- 
- .caja::after{
-     content:"\025be";
-     display:table-cell;
-     padding-top:7px;
-     text-align:center;
-     width:30px;
-     height:30px;
-     background-color:#d9d9d9;
-     position:absolute;
-     top:0;
-     right:0px;	
-     pointer-events: none;
- }
+    background-color: #d9d9d9;
+    position: absolute;
+    top: 0;
+    right: 0px;
+    pointer-events: none;
+}
 
 
- .formulario {
-    padding: 50px
- }
+form {
+    padding: 20px;
+    width: 400px;
+    margin-left: 30px;
+}
 
- 
-
- 
-
-
+table { 
+    margin-bottom: 200px;
+    margin-left: 200px;
     
- 
 
 
 
 
 
-  
-  
-  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .container {
     display: flex;
@@ -75,15 +91,15 @@ body {
     width: 400px;
     box-shadow: 0 0 20px rgba(47, 12, 204, 0.4);
     margin: auto;
-   margin-top: 70px;
-   margin-bottom: 30px;
-   }
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
 
- 
+
 
 
 .box {
-  margin-left: 50px;
+    margin-left: 50px;
     border: 0;
     background-color: #dfdddd;
     padding: 10px;
@@ -92,13 +108,13 @@ body {
     outline-color: #0d0dd1;
     box-sizing: content-box;
     width: 80%;
-    
-    
-    
+
+
+
 }
 
 .submit {
-    
+
     background-color: #0d0dd1;
     border: 0;
     padding: 15px;
@@ -108,14 +124,16 @@ body {
     width: 250px;
     margin-top: 40px;
     margin-left: 50px;
-    box-shadow: 0 0 20px rgba(201,199,253,0.5); 
+    box-shadow: 0 0 20px rgba(201, 199, 253, 0.5);
     background-image: none;
 }
+
 .info {
     padding: 30px;
     margin-left: 100px;
 
 }
+
 .img-1 {
     margin-left: 50px;
     width: 100px;
@@ -136,15 +154,18 @@ body {
     margin-bottom: 31px;
 
 }
+
 .icons img {
     width: 20px;
     margin-right: 10px;
 
 }
+
 .icons p {
-font-size: 14px;
-color: #969AEA;
+    font-size: 14px;
+    color: #969AEA;
 }
+
 .social {
     display: flex;
 }
@@ -159,4 +180,3 @@ color: #969AEA;
 h2 {
     font-size: medium;
 }
-
